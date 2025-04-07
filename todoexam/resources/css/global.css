@@ -1,0 +1,89 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* h2 Tag */
+.todo-title {
+    color: var(--lime);
+    font-family: "Winky Sans", sans-serif;
+    font-size: clamp(1rem, 5vw, 1.9rem);
+    margin-block-end: 2rem;
+}
+
+/* h3 Tag */
+.item-lists {
+    font-size: clamp(.8rem, 3vw, 1.1rem);
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.btn {
+    cursor: pointer;
+}
+
+/* Session Style */
+.success, .del, .update {
+    font-weight: bold;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-block: 1rem;
+    width: fit-content;
+    font-weight: normal;
+}
+
+.success {
+    color: var(--white);
+    background-color: var(--lime);
+}
+
+.del {
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.update {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+/*  Javascript Toggle from the navbar */
+body.show {
+    grid-template-columns: 5rem 1fr;
+}
+
+body.show .text {
+    display: none;
+}
+/* 
+li {
+    padding-inline: .8rem;
+}
+
+li:hover {
+    background-color: var(--transparent-03)
+}
+
+a.active {
+    color: var(--red);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    padding-block: .5rem;
+    margin-block: .5rem;
+} */

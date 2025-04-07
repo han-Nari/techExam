@@ -1,0 +1,20 @@
+:root {
+    /* colors */
+
+    --black: #000000;
+    --white: #ffffff;
+    --red: #e2062c;
+    --pure-red: #ff0000;
+    --azure: #f8f8ff;
+    --blue: #1e90ff;
+    --lime: #32cd32;
+    --light: #a9a9a9;
+    --lavender: #e6e6fa;
+    --transparent-01: rgba(0, 0, 0, 0.1);
+    --transparent-02: rgba(0, 0, 0, 0.2);
+    --transparent-03: rgba(0, 0, 0, 0.3);
+    --transparent-05: rgba(0, 0, 0, 0.5);
+
+    /* Font Style */
+    --ff-body: "Open Sans", sans-serif;
+}

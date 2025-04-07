@@ -1,0 +1,21 @@
+body {
+    font-family: var(--ff-body);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+h1 {
+    color: var(--lime);
+}
+
+a {
+    color: var(--black);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--lime);
+}
